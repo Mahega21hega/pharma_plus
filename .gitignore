@@ -1,0 +1,85 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.pub/
+/.packages
+/.flutter-plugins
+/.flutter-plugins-dependencies
+# pubspec.lock est volontairement VERSIONNÉ (pas ignoré) : PharmaFody est une
+# application, pas un package. Le committer garantit que le jury/l'examinateur
+# reproduit exactement les mêmes versions de dépendances.
+
+# Build outputs
+/build/
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Pods/
+/ios/Runner.xcworkspace/
+/android/.gradle/
+/android/app/build/
+
+# IntelliJ / VSCode
+.idea/
+.vscode/
+*.iml
+
+# Generated files
+**/GeneratedPluginRegistrant.*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Sensitive or local configuration
+local.properties
+
+# Optional: JetBrains
+/.idea/
+*.ipr
+*.iws
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release

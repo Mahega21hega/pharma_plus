@@ -1,0 +1,37 @@
+name: PharmaFody
+description: "PharmaFody - Application de gestion de pharmacie (projet tech web mobile)"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.2
+  intl: ^0.19.0
+  fl_chart: ^0.68.0
+  http: ^1.1.0
+  pdf: ^3.10.7
+  printing: ^5.11.1
+  path_provider: ^2.1.2
+  image_picker: ^1.0.7
+  sqflite: ^2.3.3+1
+  sqflite_common_ffi: ^2.3.3
+  path: ^1.8.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/PharmaFody-icon.png"
+
+flutter:
+  uses-material-design: true
